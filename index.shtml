@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Terpconnect Static Site </title>
+</head>
+<body>
+    <h1> Terpconnect Static Site </h1>
+    <h2> Render Info </h2>
+        <ul> 
+            <li> <strong> Name</strong>: Ayden Barrios </li>
+            <li> <strong>Render Location</strong>: <a href="#"> link to static site render </a></li>
+        </ul>
+    <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+    <h2> <u> Favorite Musicals </u> </h2>
+        <p class="onstage"> 
+            <strong> Where great performances come to life! </strong>
+        </p>
+        
+        <table> 
+            <thead>
+                <tr>
+                    <th> Director </th>
+                    <th> Title </th>
+                    <th> Year </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> Baz Luhrmann </td>
+                    <td> Moulin Rouge! </td>
+                    <td> 2001 </td>
+                </tr>
+                <tr>
+                    <td> Michael Gracey </td>
+                    <td> The Greatest Showman </td>
+                    <td> 2017 </td>
+                </tr>
+
+                <tr>
+                    <td> Robert Wise & Jerome Robbins </td>
+                    <td> West Side Story </td>
+                    <td> 1961 </td>
+                </tr>
+
+                <tr>
+                    <td> Damien Chazelle </td>
+                    <td> Lala Land </td>
+                    <td> 2001 </td>
+                </tr>
+
+                <tr>
+                    <td> Robert Wise </td>
+                    <td> Sound of Music </td>
+                    <td> 1965 </td>
+                </tr>
+
+                <tr>
+                    <td> Gene Kelly & Stanley Donen </td>
+                    <td> Singin' in the Rain </td>
+                    <td> 1952 </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <iframe width="490" 
+                height="300" 
+                src="https://www.youtube.com/embed/Zg2Fbq0SSFw"
+                title="Top 20 Catchiest Songs from Modern Movie Musicals" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+</body>
+</html>
